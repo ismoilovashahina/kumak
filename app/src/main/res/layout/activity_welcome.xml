@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/welcome"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="20dp"
+        android:text="Let's you in"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/signup_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="Facebook"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:background="@drawable/tv_rectangle"
+        android:textColor="@color/black"
+        android:paddingStart="140dp"
+        android:drawableLeft="@drawable/facebook_circled_icon"
+        android:paddingRight="115dp"
+        />
+
+    <TextView
+        android:id="@+id/signup_google"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="Google"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:background="@drawable/tv_rectangle"
+        android:textColor="@color/black"
+        android:paddingStart="140dp"
+        android:drawableLeft="@drawable/google"
+        android:paddingRight="135dp"
+        />
+
+    <TextView
+        android:id="@+id/signup_apple"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="Apple"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:background="@drawable/tv_rectangle"
+        android:textColor="@color/black"
+        android:paddingStart="140dp"
+        android:drawableLeft="@drawable/apple"
+        android:paddingRight="150dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-black" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signin_password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Sign in with password"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.Button.Circle"
+        android:backgroundTint="#0BB160" />
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="20dp"
+      android:layout_gravity="center">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Don't have an account?" />
+
+      <Button
+          android:id="@+id/signup_tv"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          style="@style/Widget.MaterialComponents.Button.TextButton"
+          android:text="Sign up"
+          android:textAllCaps="false"
+          android:textColor="#0BB160"
+          android:layout_marginTop="-10dp"
+          android:layout_gravity="center" />
+
+  </LinearLayout>
+
+
+
+
+
+</LinearLayout>
