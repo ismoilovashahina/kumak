@@ -69,7 +69,7 @@
         android:textColor="@color/black"
         android:paddingStart="140dp"
         android:drawableLeft="@drawable/apple"
-        android:paddingRight="150dp"
+        android:paddingRight="130dp"
         />
 
     <TextView

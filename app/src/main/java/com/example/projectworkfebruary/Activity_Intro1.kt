@@ -14,5 +14,10 @@ class Activity_Intro1 : AppCompatActivity() {
             intent = Intent(this, ActivityIntro2::class.java)
             startActivity(intent)
         }
+
+        skip.setOnClickListener {
+            intent = Intent(this, Welcome::class.java)
+            startActivity(intent)
+        }
     }
 }
