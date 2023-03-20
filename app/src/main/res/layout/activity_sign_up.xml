@@ -7,7 +7,7 @@
     android:layout_gravity="center"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".SignUp">
+    tools:context=".beginning.accaunt_setup.SignUp">
 
     <ImageView
         android:layout_width="wrap_content"

@@ -1,10 +1,14 @@
-package com.example.projectworkfebruary
+package com.example.projectworkfebruary.beginning
 
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.example.projectworkfebruary.MainActivity
+import com.example.projectworkfebruary.R
+import com.example.projectworkfebruary.beginning.accaunt_setup.SignUp
+import com.example.projectworkfebruary.datas.User
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import kotlinx.android.synthetic.main.activity_sign_in.*
