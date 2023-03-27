@@ -7,7 +7,6 @@ import android.os.Bundle
 import android.widget.Toast
 import com.example.projectworkfebruary.MainActivity
 import com.example.projectworkfebruary.R
-import com.example.projectworkfebruary.beginning.SignIn
 import com.example.projectworkfebruary.datas.User
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
