@@ -13,14 +13,17 @@
         android:theme="@style/Theme.ProjectWorkFebruary"
         tools:targetApi="31">
         <activity
-            android:name=".beginning.accaunt_setup.SignIn"
+            android:name=".SelectCountry"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding.SignIn"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".beginning.accaunt_setup.SignUp"
+            android:name=".onboarding.SignUp"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

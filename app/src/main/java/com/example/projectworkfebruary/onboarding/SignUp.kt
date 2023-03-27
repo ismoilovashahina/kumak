@@ -1,4 +1,4 @@
-package com.example.projectworkfebruary.beginning.accaunt_setup
+package com.example.projectworkfebruary.onboarding
 
 import android.content.Intent
 import android.net.Uri

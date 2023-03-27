@@ -40,7 +40,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="@font/source_sans_pro_semibold"
                 android:gravity="center"
                 android:text="Donate easily, quickly, right on target all over the world"
                 android:textColor="#0BB160"
@@ -52,6 +52,7 @@
                 android:text="Lorem ipsum was fjakfja af akfaj afkdafjj conceived as filler text, formatted in a certain way"
                 android:textSize="18sp"
                 android:lineHeight="30dp"
+                android:fontFamily="@font/source_sans_pro_light"
                 android:gravity="center"
                 android:layout_marginTop="20dp" />
 

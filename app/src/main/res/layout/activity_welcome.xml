@@ -23,7 +23,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/source_sans_pro_semibold"
         android:layout_marginTop="20dp"
         android:text="Let's you in"
         android:textColor="@color/black"
@@ -36,7 +36,7 @@
         android:layout_height="70dp"
         android:layout_marginTop="20dp"
         android:text="Facebook"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/source_sans_pro_regular"
         android:gravity="center"
         android:textSize="17dp"
         android:background="@drawable/tv_rectangle"
@@ -52,7 +52,7 @@
         android:layout_height="70dp"
         android:layout_marginTop="20dp"
         android:text="Google"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/source_sans_pro_regular"
         android:gravity="center"
         android:textSize="17dp"
         android:background="@drawable/tv_rectangle"
@@ -68,7 +68,7 @@
         android:layout_height="70dp"
         android:layout_marginTop="20dp"
         android:text="Apple"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/source_sans_pro_regular"
         android:gravity="center"
         android:textSize="17dp"
         android:background="@drawable/tv_rectangle"
@@ -87,7 +87,7 @@
         android:textColor="@color/black"
         android:textSize="20sp"
         android:layout_gravity="center"
-        android:fontFamily="sans-serif-black" />
+        android:fontFamily="@font/source_sans_pro_semibold" />
 
 
     <com.google.android.material.button.MaterialButton
@@ -95,6 +95,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:text="Sign in with password"
+        android:fontFamily="@font/source_sans_pro_semibold"
         android:textAllCaps="false"
         android:textColor="#fff"
         app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.Button.Circle"
@@ -110,6 +111,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/source_sans_pro_light"
             android:text="Don't have an account?" />
 
         <Button
@@ -118,6 +120,7 @@
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.Button.TextButton"
             android:text="Sign up"
+            android:fontFamily="@font/source_sans_pro_regular"
             android:textAllCaps="false"
             android:textColor="#0BB160"
             android:layout_marginTop="-10dp"

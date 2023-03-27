@@ -39,7 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="@font/source_sans_pro_semibold"
                 android:gravity="center"
                 android:text="Create your own fundraising and publish it to the world"
                 android:textColor="#0BB160"
@@ -51,6 +51,7 @@
                 android:text="Lorem ipsum was fjakfja af akfaj afkdafjj conceived as filler text, formatted in a certain way"
                 android:textSize="18sp"
                 android:lineHeight="30dp"
+                android:fontFamily="@font/source_sans_pro_light"
                 android:gravity="center"
                 android:layout_marginTop="20dp" />
 
@@ -60,6 +61,7 @@
                 android:layout_height="wrap_content"
                 style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:text="Skip"
+                android:fontFamily="@font/source_sans_pro_regular"
                 android:textAllCaps="false"
                 android:textColor="#0BB160"
                 android:layout_marginTop="20dp"
@@ -71,6 +73,7 @@
                 android:layout_height="60dp"
                 android:text="Next"
                 android:textAllCaps="false"
+                android:fontFamily="@font/source_sans_pro_semibold"
                 android:textColor="#fff"
                 app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.Button.Circle"
                 android:backgroundTint="#0BB160" />
